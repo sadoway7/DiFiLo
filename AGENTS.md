@@ -77,7 +77,7 @@ DiFiLo/
 │                        check. This is the ONLY package that touches all
 │                        layers — that's its job.
 │
-├── scripts/             Double-click launcher scripts (Mac/Windows).
+├── start/             Double-click launcher scripts (Mac/Windows).
 ├── mirror/              Data directory (md/, html/, images/, media/, pages.json).
 ├── go.mod / go.sum      Module definition and dependency locks.
 └── Dockerfile           Container build (builds from ./cmd/difilo).

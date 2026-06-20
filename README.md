@@ -75,7 +75,7 @@ or two.)
 | `internal/ui/` | HTML/CSS/JS fragments: nav panel, page shell, comments, bookmarks, CSS. |
 | `internal/app/` | Application wiring: Server struct, routing, all HTTP handlers, middleware. |
 | `go.mod` | Go module (deps: `modernc.org/sqlite`, `golang.org/x/crypto`, `goldmark`). |
-| `scripts/` | Double-click launchers for Mac (`.command`) and Windows (`.bat`). |
+| `start/` | Double-click launchers for Mac (`.command`) and Windows (`.bat`). |
 | `mirror/html/` | Captured pages (~11,400), stored **gzip-compressed at rest**. |
 | `mirror/md/` | Markdown source for the search index (~11,400), also gzip-compressed. |
 | `mirror/images/` | All images as **WebP** (originally jpg/png/gif). |

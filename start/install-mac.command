@@ -48,6 +48,6 @@ echo ""
 echo "The DiFiLo binary has been built."
 echo ""
 echo "To start the server, double-click:"
-echo "  scripts/start-mac.command"
+echo "  start/start-mac.command"
 echo ""
 echo "Press Return to close."; read -r x

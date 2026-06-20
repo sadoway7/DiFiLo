@@ -33,6 +33,6 @@ done
 open "http://localhost:8000/"
 echo ""
 echo "DIFI-LOCAL is running at http://localhost:8000/"
-echo "To stop it, double-click: scripts/stop-mac.command"
+echo "To stop it, double-click: start/stop-mac.command"
 echo "You can close this window."
 sleep 2

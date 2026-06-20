@@ -175,7 +175,7 @@ DiFiLo/
 │       ├── notifications.go          (FUTURE) notification API
 │       └── authors.go                (FUTURE) browse by author/maintainer
 │
-├── scripts/                          ← launcher & install scripts (out of root)
+├── start/                          ← launcher & install scripts (out of root)
 │   ├── start-mac.command
 │   ├── start-windows.bat
 │   ├── stop-mac.command
@@ -800,12 +800,12 @@ is deleted.
 
 | Current | New |
 |---------|-----|
-| `Start DIFI-LOCAL (Mac).command` | `scripts/start-mac.command` |
-| `Start DIFI-LOCAL (Windows).bat` | `scripts/start-windows.bat` |
-| `Stop DIFI-LOCAL (Mac).command` | `scripts/stop-mac.command` |
-| `Stop DIFI-LOCAL (Windows).bat` | `scripts/stop-windows.bat` |
-| `Install Dependencies (Mac).command` | `scripts/install-mac.command` |
-| `Install Dependencies (Windows).bat` | `scripts/install-windows.bat` |
+| `Start DIFI-LOCAL (Mac).command` | `start/start-mac.command` |
+| `Start DIFI-LOCAL (Windows).bat` | `start/start-windows.bat` |
+| `Stop DIFI-LOCAL (Mac).command` | `start/stop-mac.command` |
+| `Stop DIFI-LOCAL (Windows).bat` | `start/stop-windows.bat` |
+| `Install Dependencies (Mac).command` | `start/install-mac.command` |
+| `Install Dependencies (Windows).bat` | `start/install-windows.bat` |
 
 ### Removed from repo (added to .gitignore)
 
@@ -826,7 +826,7 @@ is deleted.
 
 - [ ] Delete `rewrite.go` (dead code)
 - [ ] Delete `mirror/.difilo-index.bin` (dead gob index)
-- [ ] Move launcher scripts to `scripts/` with clean names
+- [ ] Move launcher scripts to `start/` with clean names
 - [ ] Remove binaries, logs, PID, screenshots, `.DS_Store` from repo
 - [ ] Update `.gitignore`
 - [ ] Commit: "cleanup: remove dead code, move scripts, ignore build artifacts"
@@ -1016,7 +1016,7 @@ No file exceeds ~250 lines. Most are 50–150.
 | `notCapturedHTML` is dead code | Deleted |
 | `.difilo-index.bin` is 12 MB of dead data | Deleted |
 | 20 `.go` files in root | 0 `.go` files in root |
-| 6 launcher scripts in root | Moved to `scripts/` |
+| 6 launcher scripts in root | Moved to `start/` |
 | Binaries, logs, screenshots in repo | Removed, gitignored |
 | Nothing reusable — all `package main` | 4 leaf packages reusable (textutil, auth, ui, db) |
 | Shared helpers cause circular imports | `textutil` package breaks the cycle |
