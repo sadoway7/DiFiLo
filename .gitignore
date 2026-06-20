@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+
+# Build artifacts
+/DiFiLo
+/DiFiLo.exe
+/difilo
+
+# Runtime state
+difilo.log
+difilo.pid
+
+# Transient conversion / build logs
+*.log
+*-failures.log
+
+# Screenshots (not part of codebase)
+Screenshot*.png
+
+# Download archives (hosted externally, managed via admin panel)
+mirror/*.7z
+mirror/*.zip
+
+# Database (auto-created, contains user data — don't overwrite on deploy)
+mirror/difilo.db
+
+# Dead index (replaced by FTS5)
+mirror/.difilo-index.bin

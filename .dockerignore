@@ -1,0 +1,28 @@
+# Keep the Docker build context lean — only what the image needs.
+.git
+.gitignore
+.gitlab-ci.yml
+Dockerfile
+.dockerignore
+
+# Build artifacts (Docker builds its own Linux binary from source)
+DiFiLo
+DiFiLo.exe
+*.exe
+
+# Scripts (desktop launchers, not used inside the container)
+scripts/
+
+# Documentation (not used inside the container)
+*.md
+
+# Screenshots and runtime/transient files
+Screenshot*.png
+*.log
+*-failures.log
+difilo.pid
+.DS_Store
+**/.DS_Store
+
+# Database (auto-created inside the container from the volume)
+mirror/difilo.db

@@ -1,0 +1,150 @@
+<html>
+<head>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+<link rel="icon" type="image/png" href="/favicon32.png" />
+<link rel="shortcut icon" type="image/ico" href="http://digitalfire.com/favicon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="wquYW_n-3QEfIzDfV--8ElUewf7TIt04RGo55GfZySU" />
+<meta http-equiv="P3P" content='CP="DSP IDC CUR ADMi DEVi TAIi IVDi IVAi CONi HISi OUR IND NAV COM UNI CNT INT ONL PHY PRE PUR STA DEM"'>
+<title></title>
+
+<style type="text/css">
+body {font-family: helvetica, arial}
+img {border-style: none;}
+</style>
+
+<script type="text/javascript" language="JavaScript">
+document.cookie = "TemporaryTestCookie=yes;";
+if(document.cookie.indexOf("TemporaryTestCookie") == -1) { 
+alert("Cookies must be enabled in the privacy/security settings of your browser for this site to work properly, to learn more about cookies search for HTTP cookie at wikipedia.com"); 
+document.write("<h2>Cookies must be enabled in the privacy/security settings<br>of your browser for this site to work properly</h2>To learn more about cookies search for HTTP cookie at wikipedia.com<br><br><br>");
+}
+</script>
+<noscript><h1>Javascript must be enabled in the security or content<br>settings of your browser for this site to work properly</h2>To learn more about cookies search for HTTP cookie at wikipedia.com<br><br><br><br><br><br></noscript>
+
+</head>
+<body>
+<img border="0" src="http://digitalfire.com/images/digitalfirelogo.gif" align="right"><nobr><p style="margin-bottom: 1px; margin-top: 2px;"><font size="+1"><span style="padding: 1px 3px 0px 3px; border: solid thin blue; border-width: 2px 1px 1px 1px; background-color: #ddddff"><a title="Glaze Chemistry Software from Digitalfire Corporation" href="http://digitalfire.com/index.html">Home</a></span>|<span style="padding: 1px 3px 0px 3px; border: solid thin blue; border-width: 2px 1px 1px 1px; background-color: #ddddff"><a title="Contact Digitalfire Corp., Downloads, Payments" href="http://digitalfire.com/services/index.html">Support</a></span>|<span style="padding: 1px 3px 0px 3px; border: solid thin blue; border-width: 2px 1px 1px 1px; background-color: #ddddff"><a title="Taking INSIGHT Training" href="http://digitalfire.com/insight/schools.html">Education</a></span></font>
+</p></nobr><nobr><p style="margin-bottom: 1px; margin-top: 7px;"></p></nobr>
+<hr style="margin-top: 5px; margin-bottom: 0px; ">
+<h1>
+</h1>
+<table id="table1" cellspacing="0" cellpadding="8">
+	<tr>
+		<td valign="top">
+<h1>A Digitalfire Ceramic Database and Information System</h1>
+<p>Are you an engineer or technician in traditional ceramics manufacturing (tile, whiteware, sanitaryware, tableware, insulator)? 
+A good record keeping database is your number-one ally in product development and spotting 
+irregularities before they become production problems and product rejects.
+<a href="../services/contact.php">Contact</a> us to set up a dialog.
+
+</p>
+
+<h2>Digitalfire will install, customize and train you</h2>
+Our approach is revolutionary and <b>everything can be done remotely 
+across the internet</b>. Digitalfire is <i>The Internet Ceramic Software Company</i> 
+and has been for 25 years. We are first and foremost, ceramic experts: <i>We 
+know materials, lab testing, forming methods, chemistry, etc.</i>
+<h2>We can help on a long term basis also:</h2>
+
+<ul>
+	<li>Active ongoing roles in ceramic laboratory management</li>
+	<li>Database backup services</li>
+	<li>Security issues and advice</li>
+	<li>Conversion services for historical ceramic lab testing data</li>
+	<li>Problem solving and trouble-shooting software, lab, or production and product issues</li>
+	<li>Custom software features development (e.g. reports, creation of new laboratory test procedures)</li>
+</ul>
+<p>This is our ceramic laborary and library database solution. It is ours so it can be 
+changed in any way. It runs as a web server on 
+an ordinary PC computer in your office, lab or on the internet. You interact with it using only 
+a web browser to find, create, enter, edit and report lab physical testing and related information.</p>
+
+<h2>Technically, What is 4Sight?</h2>
+<p>It is a computer equipped with the Apache web server, MySQL database and
+the PHP language (on which our software is installed). It can run on Windows, Macintosh or Linux. 4SIGHT pages 
+present a web-style interface and talk to the SQL engine to save and retrieve 
+data. Digitalfire 4Sight is thus built on a 'open source' and solid proven platform.</p>
+
+<a href="index.php"><img border="0" src="images/referencedatabase.gif" align="left" hspace="8"></a>
+<p>The information database that you see in the <a href="index.php">Digitalfire Reference Library</a> is created and maintained 
+in 4Sight Server (it is actually generated by 4Sight Server). The administration part of 4Sight Server is completely different 
+and the range to data maintained is much more extensive (the Reference Library is a subset of what 4Sight can maintain). Below you 
+can see what the recipe and materials administration pages look like. </P>
+
+</td>
+
+<td valign="top" width="20">&nbsp;</td>
+<td valign="top" width="200" bgcolor="#dddddd" bordercolor="#808080" style="border: thin dotted grey">
+<img border="0" alt="Digitalfire FORESIGHT Ceramic Database and Quality Control Software from Digitalfire" src="images/Dragon4SightLogo200.gif"><form method="post" name="emaildigitalfire" action="/4sight">
+<h2>What are your formulation, adjustment, quality control needs?</h2>
+<b>Email address</b><br>
+<input name="my_email_address" maxlength="80" style="width:100%" autocorrect="off" autocapitalize="off" type="text" value=""><br>
+<b>Your Name</b><br>
+<input name="my_email_name" maxlength="100" style="width:100%" autocorrect="off" type="text" value=""><br>
+<b>Message</b><br>
+<textarea name="my_email_msg" maxlength="1000" style="width:100%; height:135" autocorrect="on" autocapitalize="on"></textarea><br>
+<input type="submit" name="EMAILACTION" value="Send Message" style="background: #55FF55; font-weight: bold;">
+</form></td></tr></table>
+<table><tr><td valign="top"><h2>Software Features</h2>
+<ul>
+<li>A stable foundation for ceramic laboratory record keeping, always there despite changes in personnel.</li>
+<li>Since it runs as a web server it can be configured to be accessible from anywhere.</li>
+<li>Easy-to-use web interface. Work station clients can be anything that runs a typical browser.</li>
+<li>Built on the most robust open source software platform, does not contain any Microsoft code.</li>
+<li>The software platform is built on very few layers, it is simple, it is will be supported by the internet community for many years to come.</li>
+<li>Runs on modest PC hardware.</li>
+<li>Can be operated wirelessly using Pocket WIFI equipped computers.</li>
+<li>Infinitely customizable.</li>
+<li>Lab project management and audit trail features.</li>
+<li>Product of 25 years of Digitalfire database and ceramic software experience.</li>
+<li>Rock-solid SQL database foundation for unlimited storage and high speed operation.</li>
+<li>Runs on Linux, OSX or Windows.</li>
+<li>Storage of recipe, materials, oxide, property, article, mineral, hazard, test procedure, test result, company, picture data in an inter-related manner that reflects real-world hierarchies.</li>
+<li>Starter data from Digitalfire for materials, oxides, hazards, recipes, etc..</li>
+<li>Can connect to a another site to generate dynamic content (e.g. data sheets).</li>
+<li>Proven test procedures available for many types of lab tests of body and raw material tests.</li>
+<li>Flexible report generation that can handle almost any graphical reporting task.</li>
+<li>This is the kind of server Amazon or Ebay uses, it can also act as an E-mail gateway; a firewall, gateway and VPN; it can host web sites, acts as an FTP or SSH server.</li>
+</ul>
+</td>
+
+<td width="20">&nbsp;</td><td valign="top"><br>Materials Area<br><img hspace="6" alt="Digitalfire FORESIGHT aterials page" src="images/materialpage.jpg"><br>
+Recipe Area<br><img hspace="6" alt="Digitalfire FORESIGHT recipe page" src="images/recipepage.jpg"><br>
+Other areas: Articles, hazards, glossary, minerals, oxides, people, pictures, properties, suppliers, temperatures, tests, units
+</td></tr></table>
+
+
+<h2>Brochure</h2>
+<p>View the <a alt="Digitalfire 4Sight brochure" href="help/4sightbrochure.pdf">4Sight Brochure</a> or
+<a href="help/4sightbrochure.pdf">Right-Click here</a> to download in
+<b>Windows, </b><a href="help/4sightbrochure.pdf">Control-Click here</a> for
+<b>Macintosh</b></p>
+
+<h2>Conquer New Dragons: Learn More</h2>
+<p>View the <a alt="Software Instruction Manual" href="help/4sightServer.pdf">Instruction Manual</a> or
+<a href="help/4sightServer.pdf">Right-Click here</a> to download in
+<b>Windows, </b><a href="help/4sightServer.pdf">Control-Click here</a> for
+<b>Macintosh</b></p>
+<h2>How to buy it?</h2>
+<p>4Sight is not sold as a software product at this time, it is part of a 'total solution'. Digitalfire will work will you to make it do what you want. 
+<a href="../services/contact.php">Contact</a> us, let's begin the process and talk about pricing. We will guide you on 
+every step of the way. </p>
+
+<h2>Starting Lab Data Management Now</h2>
+You can download the 4Sight for DOS application from the download page if you have a Level 2 INSIGHT key. 
+We can help you get started setting up procedures for your testing and compiling data now. 
+Then we can migrate you to 4Sight Server later.<br><br>
+
+
+
+<hr style="margin-top:30px"><a name="feedback" href="http://digitalfire.com">
+			<img border="0" src="http://digitalfire.com/images/digitalfirelogo2.gif" alt="DigitalFire Logo" width="160" height="37"></a><p>1 - 530 Allowance Ave SE, Medicine Hat, Alberta Canada T1A 3E3<br>Answering Machine: (406) 662-0136, FAX: (403) 527-7508<br><a href="/w3c/policy.html">Privacy Policy</a></p></font>
+
+</body>
+</html>

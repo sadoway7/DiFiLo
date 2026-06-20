@@ -1,0 +1,24 @@
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  image: docker:cli
+  variables:
+    DOCKER_HOST: unix:///var/run/docker.sock
+    CONTAINER_NAME: difilo
+    IMAGE_NAME: difilo
+    # difilo listens on 8000 inside the container; map a host port here.
+    # (8299 — change if something on Unraid already uses it.)
+    HOST_PORT: "8299"
+    CONTAINER_PORT: "8000"
+  script:
+    - docker build --no-cache -t $IMAGE_NAME .
+    - docker stop $CONTAINER_NAME || true
+    - docker rm $CONTAINER_NAME || true
+    # Persist the database (users, comments, bookmarks, settings) across deploys via a named volume.
+    - docker volume create difilo-data || true
+    - docker run -d --name $CONTAINER_NAME --restart unless-stopped -p $HOST_PORT:$CONTAINER_PORT -v difilo-data:/app/data $IMAGE_NAME
+    - docker image prune -f
+  only:
+    - main
